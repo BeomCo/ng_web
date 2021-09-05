@@ -235,17 +235,10 @@ section .wrap #lastStories .outBox .contBox .contText p{
     line-height: 1.2;
     padding: 0px 20px;
 }
-
-section .wrap #lastStories .outBox .contBox .contText p{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: calc((100% / 10) * 3);
-    font-size: 16px;
-    color: #555555;
-    line-height: 1.2;
-    padding: 0px 20px;
+section .wrap #lastStories .outBox .contBox:first-child .contText p{
+    width: 60%;
 }
+
 section .wrap #lastStories .outBox .contBox .contText .readMore{
     height: calc((100% / 10));
     position: absolute;
